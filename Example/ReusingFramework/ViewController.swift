@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import ReusingFramework
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        Reusing.sayHello(with: "Kihun!!!")
     }
 
     override func didReceiveMemoryWarning() {
